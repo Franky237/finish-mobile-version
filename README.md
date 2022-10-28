@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Setup finish mobile version 
 
-> Description the project.
+> Microverse project and it involved the following.
+- Creating a repository.
+- setting linters.
+- Following Github workflows.
+- Continauation of the portfolio setup mobile version project
 
 
 ## Built With
 
 - Major languages
-- Frameworks
+ - HTML
+ - CSS
 - Technologies used
+ - Github
+ - VS Code
+ - Gitbash
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- Internet
+- Browsers
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Github Desktop
+- Code Editor. Vusual Studios recommended
+- Gitbash
 
 ## Authors
 
-👤 **Author1**
+👤 **Frankz Fuhnwi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Franky237)
+- Twitter: [@twitterhandle](https://twitter.com/frankzfuhnwi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/frankz-fuhnwi-21b59b223/)
 
 ## 🤝 Contributing
 
@@ -61,12 +52,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
