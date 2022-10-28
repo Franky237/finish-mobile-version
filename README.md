@@ -27,13 +27,20 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- Internet
-- Browsers
+- Internet connection.
+- A modern Browsers e.g Google Crome.
+- Install linters.
+- Have Git Installed.
 
 ### Install
 - Github Desktop
 - Code Editor. Vusual Studios recommended
 - Gitbash
+
+### Setup
+
+- Git clone git@github.com:Frank237/finish-mobile-version
+- Run "npm install" to downlaod the required modules locally
 
 ## Authors
 
