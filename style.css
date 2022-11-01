@@ -163,15 +163,21 @@ li {
   margin-left: 25px;
 }
 
-.button {
-  padding: 4px 12px;
+.list-button {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.ls-button {
+  padding: 8px 12px;
   background-color: #ebebff;
   color: #396df2;
   border-radius: 8px;
-  border: unset;
-  height: 25px;
   font-size: 12px;
-  margin: 5px;
+  margin-right: 10px;
 }
 
 .button-1 {
