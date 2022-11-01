@@ -200,7 +200,7 @@ li {
   background-color: #fff;
   margin-top: 15px;
   margin-bottom: 20px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 button:hover {
@@ -266,4 +266,50 @@ p {
   padding-top: 30px;
   border-bottom: inset;
   margin: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.for-con {
+  background-image: url(Assets/img/contact.jpg);
+  color: #fff;
+  margin: 40px 2px 0px 5px;
+  padding: 70px 10px 5px 15px;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  font-weight: 200;
+}
+.input-fields {
+  height: 30px;
+  width: 285px;
+  border: unset;
+  border-radius: 8px;
+  margin: 7px;
+  padding-right: 0px;
+  padding-left: 10px;
+  font-family: 'poppins', sans-serif, Arial, Helvetica;
+}
+
+textarea {
+  height: 170px;
+  width: 285px;
+  border: unset;
+  border-radius: 8px;
+  margin: 7px;
+  font-family: 'poppins', sans-serif, Arial, Helvetica;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.end {
+  display: flex;
+  align-items: center;
 }
