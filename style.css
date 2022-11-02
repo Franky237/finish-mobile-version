@@ -277,7 +277,7 @@ p {
 .for-con {
   background-image: url(Assets/img/contact.jpg);
   color: #fff;
-  margin: 40px 2px 0px 5px;
+  margin: 40px 2px 0 5px;
   padding: 70px 10px 5px 15px;
   align-items: center;
   text-align: center;
@@ -287,13 +287,14 @@ h4 {
   color: #fff;
   font-weight: 200;
 }
+
 .input-fields {
   height: 35px;
   width: 285px;
   border: unset;
   border-radius: 8px;
   margin: 7px;
-  padding-right: 0px;
+  padding-right: 0;
   padding-left: 10px;
   font-family: 'poppins', sans-serif, Arial, Helvetica;
 }
