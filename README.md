@@ -7,6 +7,7 @@
 - setting linters.
 - Following Github workflows.
 - Continauation of the portfolio setup mobile version project
+- Added a contact form
 
 
 ## Built With
@@ -59,6 +60,12 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgement
+- I want to thank in a special way;
+- Anelisa Dee
+- Anna Petras
+- Their contributions brought about the realisation of this final part of my project
 
 ## 📝 License
 
