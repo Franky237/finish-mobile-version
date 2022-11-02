@@ -316,5 +316,8 @@ textarea {
 
 .end2 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 121px;
 }
