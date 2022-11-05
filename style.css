@@ -7,8 +7,6 @@
 body {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   background-color: #e5e5e5;
-  margin: 25px;
-  padding: 20px;
 }
 
 @media all and (max-width: 1020) {
@@ -99,6 +97,7 @@ body {
   border-bottom-left-radius: 150px;
   margin-bottom: 90px;
   margin-top: 0;
+  width: 100%;
 }
 
 @media (max-width: 1060px) {
@@ -407,7 +406,7 @@ button:hover {
 .contact {
   background-color: #fff;
   height: 550px;
-  width: 1250px;
+  width: 100%;
   margin: 0;
   border-top-right-radius: 100px;
   padding-top: 100px;
@@ -427,7 +426,7 @@ button:hover {
 form {
   background-image: url(Assets/img/contact.jpg);
   height: 650px;
-  width: 1250px;
+  width: 100%;
   color: #fff;
   padding: 100px 350px 200px 370px;
   align-items: center;
