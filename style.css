@@ -2,8 +2,8 @@
 
 * {
   box-sizing: border-box;
-
 }
+
 body {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   background-color: #e5e5e5;
@@ -11,7 +11,7 @@ body {
   padding: 20px;
 }
 
-@media all and (max-width:1020) {
+@media all and (max-width: 1020) {
   body {
     padding: auto;
     margin: auto;
@@ -34,7 +34,7 @@ body {
 .logo {
   font-weight: 700;
   font-size: 18px;
-  color: #6070FF;
+  color: #6070ff;
   margin: 25px;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .nav-links li :hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 
 .toggle-button {
@@ -74,7 +74,7 @@ body {
   width: 100%;
   background-color: black;
   border-radius: 7px;
-} 
+}
 
 @media all and (max-width: 1060px) {
   .toggle-button {
@@ -83,6 +83,10 @@ body {
 
   .nav-links {
     display: none;
+  }
+
+  .navbar {
+    width: 600px;
   }
 }
 
@@ -97,22 +101,30 @@ body {
   margin-top: 0;
 }
 
+@media (max-width: 1060px) {
+  .heading {
+    width: 600px;
+    padding-right: 100px;
+    text-align: center;
+  }
+}
+
 h1 {
   font-size: 48px;
   font-weight: 700;
-  color: #091E42;
+  color: #091e42;
   text-align: left;
-  padding: 250px 0px 0px 100px;
-  margin-bottom: 0px;
+  padding: 250px 0 0 100px;
+  margin-bottom: 0;
   margin-left: 95px;
 }
 
 p {
   font-size: 20px;
   font-weight: 400;
-  color: #091E42;
+  color: #091e42;
   text-align: left;
-  padding: 0px 0px 0px 200px;
+  padding: 0 0 0 200px;
 }
 
 .icons {
@@ -124,7 +136,7 @@ p {
 }
 
 .connect {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-size: 16px;
   font-weight: 500;
   padding-left: 100px;
@@ -139,7 +151,7 @@ p {
   padding: 25px;
 }
 
-@media (max-width:1060px) {
+@media (max-width: 1060px) {
   .container {
     height: 1000px;
     width: 600px;
@@ -153,7 +165,7 @@ p {
 }
 
 .tonic {
-  color: #091E42;
+  color: #091e42;
   list-style: none;
   font-weight: 700;
   font-size: 30px;
@@ -175,7 +187,6 @@ img {
 
 .image {
   float: right;
-  
 }
 
 @media (max-width: 1060px) {
@@ -192,23 +203,24 @@ img {
 .list {
   padding-left: 10px;
   margin-left: 10px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .list1 {
   margin-left: 25px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .list2 {
   /* padding-left: 10px; */
+
   /* margin-left: 10px; */
   margin-right: 10px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   line-height: 24px;
   padding: 10px;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .button-1 {
@@ -244,15 +256,16 @@ img {
   float: left;
   padding: 25px;
   padding-top: 40px;
+
   /* padding-left: 40px; */
   margin-left: 20px;
 }
 
 .about-1 {
-  color: #091E42;
+  color: #091e42;
 }
 
-@media (max-width:1060px) {
+@media (max-width: 1060px) {
   .about-1 {
     margin-left: 20px;
     font-size: 20px;
@@ -265,10 +278,9 @@ img {
   margin-top: 0;
   font-weight: 400;
   color: #344563;
-
 }
 
-@media (max-width:1060px) {
+@media (max-width: 1060px) {
   .about-2 {
     font-size: 12px;
     font-weight: 200;
@@ -280,12 +292,12 @@ img {
 .about-3 {
   padding-top: 0;
   margin-top: 0;
-  color: #7F8CFF;
+  color: #7f8cff;
   font-size: 20px;
   font-weight: 500;
 }
 
-@media (max-width:1060px) {
+@media (max-width: 1060px) {
   .about-3 {
     margin-left: 20px;
     font-size: 20px;
@@ -344,6 +356,7 @@ button:hover {
   padding-top: 40px;
   padding-right: 40px;
 }
+
 .lang-1 {
   display: flex;
   flex-direction: row;
@@ -351,6 +364,7 @@ button:hover {
   list-style: none;
   font-size: 20px;
   font-weight: 500;
+
   /* padding-top: 40px; */
 }
 
@@ -363,7 +377,7 @@ button:hover {
   margin: 10px;
   margin-left: 0;
   padding: 15px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   border-radius: 8px;
 }
 
@@ -371,14 +385,14 @@ button:hover {
   margin: 10px;
   padding: 15px;
   border-radius: 8px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 .css {
   margin: 10px;
   padding: 15px;
   border-radius: 8px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 .frame {
@@ -387,7 +401,7 @@ button:hover {
   list-style: none;
   padding-top: 15px;
   padding-bottom: 10px;
-  border-bottom: #DFE1E6 solid;
+  border-bottom: #dfe1e6 solid;
 }
 
 .contact {
@@ -401,7 +415,7 @@ button:hover {
   padding-left: 50px;
 }
 
-@media (max-width:1060px) {
+@media (max-width: 1060px) {
   .contact {
     height: 1000px;
     width: 600px;
@@ -422,11 +436,11 @@ form {
 
 @media (max-width: 1060px) {
   form {
-    height: 450px;
+    height: 500px;
     width: 600px;
     font-size: 10px;
     padding: 45px 10px 10px 10px;
-  } 
+  }
 }
 
 .contact-form {
@@ -448,16 +462,16 @@ form {
 
 @media (max-width: 1060px) {
   .input-fields {
-  height: 25px;
-  width: 250px;
-  margin: 10px;
-  border: unset;
-  border-radius: 8px;
-  margin-left: 120px;
-  padding-right: 0;
-  padding-left: 10px;
-  font-family: 'poppins', sans-serif, Arial, Helvetica;
-   }
+    height: 25px;
+    width: 250px;
+    margin: 10px;
+    border: unset;
+    border-radius: 8px;
+    margin-left: 160px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-family: 'poppins', sans-serif, Arial, Helvetica;
+  }
 }
 
 textarea {
@@ -474,20 +488,20 @@ textarea {
 
 @media (max-width: 1060px) {
   textarea {
-  height: 100px;
-  width: 250px;
-  margin: 10px;
-  border: unset;
-  border-radius: 8px;
-  margin-left: 120px;
-  padding-right: 0;
-  padding-left: 10px;
-  font-family: 'poppins', sans-serif, Arial, Helvetica;
+    height: 100px;
+    width: 250px;
+    margin: 10px;
+    border: unset;
+    border-radius: 8px;
+    margin-left: 160px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-family: 'poppins', sans-serif, Arial, Helvetica;
   }
 }
 
 h4 {
-  font-size: 20;
+  font-size: 15px;
   font-weight: 400;
 }
 
