@@ -22,7 +22,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]([https://livedemo.com](https://franky237.github.io/finish-mobile-version/))
 
 
 To get a local copy up and running follow these simple example steps.
