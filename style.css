@@ -36,6 +36,13 @@ body {
   margin: 25px;
 }
 
+.logo:hover {
+  background-color: #091e42;
+  color: #e5e5e5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .nav-links ul {
   margin: 0;
   padding: 0;
@@ -54,7 +61,10 @@ body {
 }
 
 .nav-links li :hover {
-  background-color: #6070ff;
+  background-color: #091e42;
+  color: #e5e5e5;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .toggle-button {
@@ -347,8 +357,9 @@ img {
 }
 
 button:hover {
-  background-color: hsl(261, 96%, 44%);
+  background-color: #091e42;
   color: #fff;
+  border: unset;
 }
 
 .language {
