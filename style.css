@@ -38,9 +38,10 @@ body {
 
 .logo:hover {
   background-color: #091e42;
-  color: #e5e5e5;
+  color: white;
   border-radius: 10px;
   padding: 10px;
+  font-weight: 800;
 }
 
 .nav-links ul {
@@ -62,9 +63,10 @@ body {
 
 .nav-links li :hover {
   background-color: #091e42;
-  color: #e5e5e5;
+  color:white;
   border-radius: 10px;
   padding: 10px;
+  font-weight: 800;
 }
 
 .toggle-button {
@@ -229,7 +231,8 @@ img {
   line-height: 24px;
   padding: 10px;
   border-radius: 8px;
-  color: #6070ff;
+  color: #040d64d2;
+  font-weight: 700;
 }
 
 .button-1 {
@@ -360,6 +363,7 @@ button:hover {
   background-color: #091e42;
   color: #fff;
   border: unset;
+  font-weight: 700;
 }
 
 .language {
