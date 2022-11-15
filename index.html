@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Mobile Version</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2af886883b.js" crossorigin="anonymous"></script>
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <header class="header">
         <nav class="navbar">
-        <a class="logo">My Logo</a>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+        <a href="#" class="logo">My Logo</a>
+                <ul href="#" class="nav-menu">
+                    <li class="nav-item"><a href="#cards" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contact-me" class="nav-link">Contact</a></li>
                 </ul>
-            </div>
+                <div href="#" class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
         </nav>
     </header>
     <section class="heading">
@@ -44,7 +42,7 @@
         </ul>
         <br><br><br><br>
     </section>
-    <section class="container">
+    <section class="container" id="cards">
             <div>
             <img src="Assets/img/snapshot-3.png" alt="A view of the horizon">
             <div class="float">
@@ -151,10 +149,10 @@
 </div>
 </div>
 </section>
-    <section class="contact">
+    <section class="contact" id="about-me">
         <div class="about">
             <h2 class="about-1">About<br>Myself</h2>
-            <h4 class="about-2">Hello I’m a software developer! I can help you build a<br> product , feature or website Look through some of my<br> work and experience! If you like what you see and have<br> a project you need coded, don’t hestiate to contact me.</h4>
+            <h4 class="about-2">Hello I’m a software developer!<br> I can help you build a product,<br> feature or website Look through<br> some of my work and experience!<br>If you like what you see and have<br> a project you need coded,<br> don’t hestiate to contact me.</h4>
         <h2 class="about-3">LET'S CONNECT</h2>
         <ul class="about-4">
             <li><a><i class="fa-brands fa-twitter"></i></a></li>
@@ -202,7 +200,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contact-me">
         <form action="https://formspree.io/f/mqkjgqke" method="post">
         <div class="for-con">
         <h2>Contact me</h2>
@@ -218,5 +216,6 @@
         </div>
         </form>
     </section>
+    <script type="text/javaScript" src="script.js"></script>
 </body>
 </html>
