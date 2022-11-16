@@ -31,11 +31,10 @@ a {
   background-color: white;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width: 768px) {
   .navbar {
     width: 600px;
   }
-
 }
 
 .nav-menu {
@@ -93,20 +92,22 @@ a {
   }
 
   .hamburger.active .bar:nth-child(1) {
+    background-color: white;
     transform: translateY(12px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
+    background-color: white;
     transform: translateY(-6px) rotate(-45deg);
   }
 
-  .hamburger.active .bar:nth-child(1) {
+  /* .hamburger.active .bar:nth-child(1) {
     background-color: white;
   }
 
   .hamburger.active .bar:nth-child(3) {
     background-color: white;
-  }
+  } */
 
   .nav-menu {
     position: fixed;
@@ -118,7 +119,7 @@ a {
     padding-top: 630px;
     padding-left: 25px;
     padding-bottom: 300px;
-    background:rgba(122, 135, 247, 0.897);
+    background: rgba(122, 135, 247, 0.897);
     width: 387px;
     height: 1200px;
     transition: 0.5s;
@@ -170,7 +171,7 @@ a {
   padding: 15px 0 0 100px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   h1 {
     padding: 50px 0 0 20px;
   }
@@ -271,16 +272,16 @@ img {
   line-height: 24px;
   padding: 10px;
   border-radius: 8px;
-  color: #396DF2;
+  color: #396df2;
   font-weight: 500;
 }
 
 .button-1 {
   font-size: 17px;
-  color: #396DF2;
+  color: #396df2;
   height: 45px;
   font-weight: 500;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   border-radius: 8px;
   background-color: #fff;
   margin-top: 15px;
@@ -388,7 +389,7 @@ img {
 .button-2 {
   font-size: 17px;
   font-weight: 500;
-  color: #396DF2;
+  color: #396df2;
   height: 40px;
   width: 148px;
   border: 1px solid royalblue;
@@ -399,7 +400,7 @@ img {
   margin-left: 10px;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width: 768px) {
   .language {
     clear: left;
   }
